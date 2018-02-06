@@ -2,8 +2,8 @@ package kr.or.dgit.jdbc_study;
 
 import java.util.List;
 
+import org.apache.logging.log4j.core.util.Assert;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -26,7 +26,7 @@ public class StudentServiceTest {
 	@Test
 	public void testFindAllStudents() {
 		List<Student> list = service.findAllStudents();
-		//Assert.isNonEmpty(list);
+		Assert.isNonEmpty(list);
 	}
 
 }

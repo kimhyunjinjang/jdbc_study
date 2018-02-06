@@ -5,3 +5,5 @@ insert into student values
 (2, 'student2', 'student2@gmail.com','1983-06-25');
 
 select * from student;
+
+select stud_id, name, email, dob from student;
