@@ -71,6 +71,7 @@ public class StudentService implements StudentDao {
 		String email = rs.getString("email");
 		Date dob = rs.getDate("dob");
 		return new Student(studId, name, email, dob);
+		//hotfix service test(13:22 khj)
 	}
 
 }
